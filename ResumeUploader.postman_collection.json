@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "487392db-191e-4dcf-a3ed-183425f19f9d",
+		"name": "ResumeUploader",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32308085"
+	},
+	"item": [
+		{
+			"name": "ListResume",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SaveProfile",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Shubham Kumar",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "shubhee1021@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "state",
+							"value": "Himachal",
+							"type": "text"
+						},
+						{
+							"key": "DOB\n",
+							"value": "2001-07-10",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "Chamba",
+							"type": "text"
+						},
+						{
+							"key": "pimage",
+							"type": "file",
+							"src": "/C:/Users/Shubh/Desktop/theme/Gp/New_2_Shopify.webp"
+						},
+						{
+							"key": "rdoc",
+							"type": "file",
+							"src": "/C:/Users/Shubh/Desktop/python developer letter.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/resume/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"resume",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
